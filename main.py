@@ -16,12 +16,16 @@ def main():
 
     with open('subscriptions.csv', newline='') as subs:
         reader = csv.reader(subs)
+        next(reader)
         for row in reader:
             if len(row) == 0:
                 continue
             print(f'Downloading {row[2]}')
+            os.mkdir(row[2])
+            os.chdir(row[2])
             cmd = f'yt-dlp https://youtube.com/channel/{row[0]} {argstr}'
-            print(cmd)
+            subprocess.run(cmd)
+            os.chdir('..')
 
 if __name__ == '__main__':
     main()
