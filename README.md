@@ -17,6 +17,9 @@ WARNING! THIS MAY USE A LOT OF STORAGE SPACE
 - Clone this repo
 - Run `main.py` with `subscriptions.csv` in the same directory
 
+NOTE: All command-line arguments are passed into yt-dlp
+I.E. `python main.py --recode mp4 --add-metadata` will run `yt-dlp https://youtube.com/channel/UChIs72whgZI9w6d6FhwGGHA --recode mp4 --add-metadata`
+
 ## License
 
 Licensed under the MIT License, Christopher Fore 2023
