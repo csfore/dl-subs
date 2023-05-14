@@ -9,8 +9,8 @@ WARNING! THIS MAY USE A LOT OF STORAGE SPACE
 ### Prerequisites
 
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- The .csv file with your subs from Google takeout
-  - Easiest way is to go to takeout.google.com, deselect all, select YouTube, then only select subscriptions
+- The .csv file with your subs from [Google Takeout](https://takeout.google.com)
+  - Deselect all, select YouTube and YouTube Music, All YouTube data included, deselect all, select `subscriptions` (towards the bottom)
 
 ### Using
 
